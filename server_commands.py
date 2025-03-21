@@ -12,6 +12,12 @@ def create_table(name):
     return command
 
 
-def inserting_data_to_database(name):
+def filling_the_database(name):
     command = fr"""INSERT INTO {name}(id, Name, Model, Price)
-                   VALUES(1,)"""
+                   VALUES
+                   (1, 'Tesla', 'Model 3', 34900),
+                    (2, 'Tesla', 'Models S', 79900),
+                     (3, 'Tesla', 'Models Y', 52490),
+                      (4, 'Tesla', 'Cybertruck', 69990);"""
+    return command
+

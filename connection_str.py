@@ -1,7 +1,6 @@
 import os
 from dotenv import load_dotenv
 
-
 load_dotenv()
 
 DRIVER = os.getenv("MS_SQL_DRIVER")

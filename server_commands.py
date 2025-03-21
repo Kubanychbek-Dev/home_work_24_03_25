@@ -21,3 +21,8 @@ def filling_the_database(name):
                       (4, 'Tesla', 'Cybertruck', 69990);"""
     return command
 
+
+def get_data_from_database(table_name):
+    command = fr"""SELECT id, Name, Model, Price
+                   FROM {table_name};"""
+    return command

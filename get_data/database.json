@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Tesla",
+    "model": "Model 3",
+    "price": 34900.0
+  },
+  {
+    "id": 2,
+    "name": "Tesla",
+    "model": "Models S",
+    "price": 79900.0
+  },
+  {
+    "id": 3,
+    "name": "Tesla",
+    "model": "Models Y",
+    "price": 52490.0
+  },
+  {
+    "id": 4,
+    "name": "Tesla",
+    "model": "Cybertruck",
+    "price": 69990.0
+  },
+  {
+    "id": 1,
+    "name": "Tesla",
+    "model": "Model 3",
+    "price": 34900.0
+  },
+  {
+    "id": 2,
+    "name": "Tesla",
+    "model": "Models S",
+    "price": 79900.0
+  },
+  {
+    "id": 3,
+    "name": "Tesla",
+    "model": "Models Y",
+    "price": 52490.0
+  },
+  {
+    "id": 4,
+    "name": "Tesla",
+    "model": "Cybertruck",
+    "price": 69990.0
+  }
+]

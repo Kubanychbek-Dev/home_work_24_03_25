@@ -27,6 +27,8 @@ try:
     conn.execute(SQL_QUERY)
 except pyodbc.ProgrammingError as e:
     print(e)
+except pyodbc.OperationalError as OperErr:
+    print(OperErr)
 else:
     print(f"Database {WORK_DATABASE} created")
 finally:

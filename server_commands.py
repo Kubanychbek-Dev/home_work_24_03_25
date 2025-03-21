@@ -8,6 +8,10 @@ def create_table(name):
                (id INT PRIMARY KEY,
                Name nvarchar(50),
                 Model nvarchar(50),
-                Year date,
                  Price money);"""
     return command
+
+
+def inserting_data_to_database(name):
+    command = fr"""INSERT INTO {name}(id, Name, Model, Price)
+                   VALUES(1,)"""
